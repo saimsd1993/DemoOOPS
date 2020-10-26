@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Your Logo" duration-ms="84366" started-at="2020-10-26T09:38:42 IST" finished-at="2020-10-26T09:40:06 IST">
+    <groups>
+    </groups>
+    <test name="Ecommerce Application Test" duration-ms="84366" started-at="2020-10-26T09:38:42 IST" finished-at="2020-10-26T09:40:06 IST">
+      <class name="com.Mytest.HomeTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Mytest.HomeTest@467aecef]" name="setup" is-config="true" duration-ms="16074" started-at="2020-10-26T09:39:19 IST" finished-at="2020-10-26T09:39:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verifyplpdetails()[pri:1, instance:com.Mytest.HomeTest@467aecef]" name="Verifyplpdetails" duration-ms="4919" started-at="2020-10-26T09:39:35 IST" finished-at="2020-10-26T09:39:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyplpdetails -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.Mytest.HomeTest@467aecef]" name="teardown" is-config="true" duration-ms="1516" started-at="2020-10-26T09:39:40 IST" finished-at="2020-10-26T09:39:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifyplpdetails status=SUCCESS method=HomeTest.Verifyplpdetails()[pri:1, instance:com.Mytest.HomeTest@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Mytest.HomeTest@467aecef]" name="setup" is-config="true" duration-ms="16457" started-at="2020-10-26T09:39:41 IST" finished-at="2020-10-26T09:39:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyPLP()[pri:2, instance:com.Mytest.HomeTest@467aecef]" name="VerifyPLP" duration-ms="5735" started-at="2020-10-26T09:39:58 IST" finished-at="2020-10-26T09:40:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPLP -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.Mytest.HomeTest@467aecef]" name="teardown" is-config="true" duration-ms="1778" started-at="2020-10-26T09:40:03 IST" finished-at="2020-10-26T09:40:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPLP status=SUCCESS method=HomeTest.VerifyPLP()[pri:2, instance:com.Mytest.HomeTest@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Mytest.HomeTest -->
+      <class name="com.Mytest.LoginTest">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.Mytest.LoginTest@3dfc5fb8]" name="config" is-config="true" duration-ms="209" started-at="2020-10-26T09:38:42 IST" finished-at="2020-10-26T09:38:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Mytest.LoginTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="23654" started-at="2020-10-26T09:38:42 IST" finished-at="2020-10-26T09:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:com.Mytest.LoginTest@3dfc5fb8]" name="verifylogin" duration-ms="10463" started-at="2020-10-26T09:39:06 IST" finished-at="2020-10-26T09:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.Mytest.LoginTest@3dfc5fb8]" name="teardown" is-config="true" duration-ms="2290" started-at="2020-10-26T09:39:16 IST" finished-at="2020-10-26T09:39:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylogin status=SUCCESS method=LoginTest.verifylogin()[pri:0, instance:com.Mytest.LoginTest@3dfc5fb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="onFinish()[pri:0, instance:com.Mytest.LoginTest@3dfc5fb8]" name="onFinish" is-config="true" duration-ms="1169" started-at="2020-10-26T09:40:05 IST" finished-at="2020-10-26T09:40:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFinish -->
+      </class> <!-- com.Mytest.LoginTest -->
+    </test> <!-- Ecommerce Application Test -->
+  </suite> <!-- Your Logo -->
+</testng-results>
