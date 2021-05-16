@@ -15,7 +15,7 @@ public class LoginTest extends BasetTest{
 		page.getInstance(LoginPage.class).doLogin();
 		logger2.log(LogStatus.PASS, "Login scenario Passed");
 		System.out.println("Invalid login succes");
-		page.getInstance(LoginPage.class).doLogin("test420@gmail.com", "Test12345");
+		page.getInstance(LoginPage.class).doLogin("sri120@gmail.com", "Test12345");
 		logger2.log(LogStatus.PASS, "Valid Login scenario Passed");
 		System.out.println("Login success");
 		String title=page.getInstance(LoginPage.class).gettitle();
